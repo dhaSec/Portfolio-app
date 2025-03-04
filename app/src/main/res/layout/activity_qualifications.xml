@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7296A4"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#7296A4"
+        android:text="Qualifications:\n\n- 10th Grade: Completed with a strong academic foundation.\n- 12th Grade: Specialized in Science with a focus on Computer Science.\n- Bachelor of Science (B.Sc.) in Computer Science: Currently pursuing, gaining in-depth knowledge in programming, cybersecurity, and network security.\n\nDedicated to continuous learning and skill enhancement in the field of cybersecurity and ethical hacking."
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</LinearLayout>

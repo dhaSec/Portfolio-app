@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7296A4"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7296A4"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- Profile Image -->
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sai" />
+
+        <!-- Name & Position -->
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Dhruvi Shetty"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/profilePosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Student"
+            android:textColor="#B0BEC5"
+            android:textSize="16sp" />
+
+        <!-- Section Buttons -->
+        <Button
+            android:id="@+id/btnPersonalInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#B3C1DC"
+            android:text="Personal Info"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnSkills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#BAD0E7"
+            android:text="Skills"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnQualifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#93A0C6"
+            android:text="Qualifications"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnInterests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#788AB2"
+            android:text="Interests"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnProjects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#4C587D"
+            android:text="Projects"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnIdealJob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#353D60"
+            android:text="Ideal Job"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>
+

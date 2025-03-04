@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7296A4"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#7296A4"
+        android:text="Ideal Job: Cybersecurity Analyst\n \n Passionate and driven cybersecurity enthusiast with a strong foundation in ethical hacking, penetration testing, and network security.\n Aspiring to secure a challenging role in cybersecurity where I can apply my skills to protect digital assets, mitigate threats, and enhance security frameworks.\n Committed to continuous learning and staying ahead of emerging cyber threats to contribute effectively to an organization's security posture."
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

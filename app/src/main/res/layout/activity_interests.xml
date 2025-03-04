@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7296A4"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My interests lie in the ever-evolving world of cybersecurity, with a strong passion for network security, ethical hacking, and malware analysis.\n\nI am particularly fascinated by how cyber threats evolve and the strategies used to detect, analyze, and mitigate cyberattacks.\n\nI enjoy working with penetration testing tools to identify vulnerabilities in systems and strengthen security defenses.\n\nAdditionally, I am highly interested in digital forensics, investigating cyber incidents, and tracing attack origins to help organizations stay protected.\n\nAnother area of keen interest is the integration of Artificial Intelligence (AI) in cybersecurity—leveraging machine learning to predict and prevent cyber threats in real time.\n\nI stay updated with the latest trends in threat intelligence, cryptography, and cloud security, aiming to contribute to a more resilient digital ecosystem.\n\nI am always eager to expand my knowledge, work on real-world security challenges, and collaborate with professionals to build safer and more secure digital infrastructures.\n\n"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
